@@ -19,6 +19,20 @@ div {
 	margin-top: 0px;
 	text-align: center;
 	font-size: 3rem;
+	position: relative;
+	/*border: 2px solid black;*/
+}
+
+#logo h1 {
+	z-index: 1;
+}
+
+#logo h1 img {
+	top: 0; left: 0;
+	position: absolute;
+	display: inline-block;
+	max-height: 100%;
+	z-index: 0;
 }
 
 #items {
